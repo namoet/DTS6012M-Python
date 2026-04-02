@@ -29,9 +29,9 @@ After that you can read values with the class attributes:
 
 Dont forget to stop the stream with:
 ```python
-set.stop_stream()
+ser.stop_stream()
 ```
 Or just use:
 ```python
-set.close()
+ser.close()
 ```
