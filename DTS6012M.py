@@ -78,7 +78,7 @@ class DTS6012M:
                 self.streaming = True
                 if len(data) != 14:
                     continue
-                nums = parse_numbers(data, 2, "big")
+                nums = parse_numbers(data, 2, "little")
                 if self.data_event:
                     func = self.data_event
                     func(self)
