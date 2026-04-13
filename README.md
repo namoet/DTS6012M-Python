@@ -35,3 +35,7 @@ Or just use:
 ```python
 ser.close()
 ```
+
+
+## License
+This project is licensed under the MIT License.
